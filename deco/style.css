@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6, body, div, span, nav, li,p, ul {margin:0; padding:0}
+a {text-decoration:none ; font-family : 'Gothic A1-Bold'; color : BLACK;}
+
+p{
+    font-family: 'Gothic A1-Thin';
+    margin-top : 4px;
+}
+
+.intro {
+    padding: 2em 0 3em 3em;
+    height: 5em;
+    background-color : #E9E4E1;
+    font-family: 'Gothic A1-Thin';
+}
+.project-list {
+    padding : 2em 0 3em 3em;
+    font-family: 'Gothic A1-SemiBold';
+}
+
+.project-container { 
+    margin-top : 10px;
+    margin-right : 20px;
+    padding : 15px;
+    background-color : #f5f5f5;
+    border-radius:9px;
+    height : 10em;
+    width : 10em;
+    display : inline-block;
+    vertical-align: top;
+}
+
+img.go {
+    margin-top : 10px;
+    height: 30px;
+}
