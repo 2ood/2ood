@@ -6,6 +6,10 @@ p{
     margin-top : 4px;
 }
 
+.intro > p.subtitle {
+    font-size : 20px;
+}
+
 .intro {
     padding: 2em 0 3em 3em;
     height: 5em;
@@ -17,7 +21,7 @@ p{
     font-family: 'Gothic A1-SemiBold';
 }
 
-.project-container { 
+.project { 
     margin-top : 10px;
     margin-right : 20px;
     padding : 15px;
