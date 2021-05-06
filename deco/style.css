@@ -1,5 +1,6 @@
 h1, h2, h3, h4, h5, h6, body, div, span, nav, li,p, ul {margin:0; padding:0}
-a {text-decoration:none ; font-family : 'Gothic A1-Bold'; color : BLACK;}
+a {text-decoration:none ; font-family : 'Gothic A1'; color : BLACK;}
+a:hover { text-decoration:underline; }
 
 p{
     font-family: 'Gothic A1-Thin';
@@ -16,14 +17,13 @@ p{
     background-color : #E9E4E1;
     font-family: 'Gothic A1-Thin';
 }
-.project-list {
+.project-list, .writings-list {
     padding : 2em 0 3em 3em;
     font-family: 'Gothic A1-SemiBold';
 }
 
-.project { 
-    margin-top : 10px;
-    margin-right : 20px;
+.project, .writing { 
+    margin : 10px 20px 15px 0;
     padding : 15px;
     background-color : #f5f5f5;
     border-radius:9px;
@@ -32,8 +32,23 @@ p{
     display : inline-block;
     vertical-align: top;
 }
+.project:hover, .writing:hover {
+    background-color: #e1e1e1;
+    transition: background-color .5s;
+}
+
+.project:not(:hover), .writing:not(:hover) {
+    background-color: #f5f5f5;
+    transition: background-color .3s;
+}
+
 
 img.go {
     margin-top : 10px;
     height: 30px;
+}
+
+img.in-text {
+    margin-top : 10px;
+    height: 1em;
 }

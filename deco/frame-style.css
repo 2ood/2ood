@@ -1,0 +1,49 @@
+h1, h2, h3, h4, h5, h6, body, div, span, nav, li,p, ul {margin:0; padding:0}
+a {text-decoration:none ; font-family : 'Gothic A1'; color : BLACK;}
+a:hover { text-decoration:underline; }
+
+p{
+    font-family: 'Gothic A1-Thin';
+    margin-top : 4px;
+}
+
+.intro > p.subtitle {
+    font-size : 20px;
+}
+
+.intro {
+    padding: 1em 0 3em 3em;
+    height: 2em;
+    background-color : #E9E4E1;
+    font-family: 'Gothic A1-Thin';
+}
+
+.content { 
+    height: 90vh;
+    width : 100%;
+}
+
+iframe {
+    width : 98%;
+    height : 100%;
+    border: none;
+    display:relative;
+    background-color: #f1f1f1;
+    margin : 1em 1% 1em 1% ;
+}
+
+img.go {
+    margin-top : 10px;
+    height: 30px;
+}
+
+button {
+    height : 3em;
+    width : 10em;
+    margin: 0 auto;
+}
+
+img.in-text {
+    margin-top : 10px;
+    height: 1em;
+}
