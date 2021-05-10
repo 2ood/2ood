@@ -7,6 +7,15 @@ p{
     margin-top : 4px;
 }
 
+p.bottom-right {
+  font-family : 'Gothic A1-ExtraBold';
+  color : #B9B4B1;
+  text-align:right;
+  position: absolute;
+  bottom: 8px;
+  right: 16px; 
+}
+
 .intro > p.subtitle {
     font-size : 20px;
 }
@@ -31,6 +40,7 @@ p{
     width : 10em;
     display : inline-block;
     vertical-align: top;
+    position : relative;
 }
 .project:hover, .writing:hover {
     background-color: #e1e1e1;
