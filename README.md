@@ -36,4 +36,4 @@
 ![Linux Mint Badge](https://img.shields.io/badge/Linux%20Mint-87CF3E?logo=linuxmint&logoColor=fff&style=flat-square)
 ![Apache Badge](https://img.shields.io/badge/Apache-D22128?logo=apache&logoColor=fff&style=flat-square)
 
-## [Projects](https://github.com/2ood/2ood/projects.md)
+## [Projects](https://github.com/2ood/2ood/blob/main/projects.md)
