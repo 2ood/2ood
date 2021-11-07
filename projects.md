@@ -5,7 +5,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=2ood&repo=YND)](https://github.com/2ood/YND)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=2ood&repo=problemShooter)](https://github.com/2ood/problemShooter)
 
-### 2. Recently I found interesting in web developments
+### 2. Recently, I found interests in web developments 
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=2ood&repo=Nadapgae)](https://github.com/2ood/Nadapgae)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=2ood&repo=chaneeMinbak)](https://github.com/2ood/chaneeMinbak)
