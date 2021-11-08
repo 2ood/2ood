@@ -1,4 +1,4 @@
-## Hello!✋ I'm 2ood
+## Hello! I'm 2ood. ✋
 
 > ###  🔥🔥 I like to build what I am in need. 🔥🔥
 
