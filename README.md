@@ -1,8 +1,9 @@
-## I'm 2ood
+## Hello! I'm 2ood 🔥
 
-* I'm a frontend developer.
-* [profile page](http://2ood.github.io/2ood) / [velog](https://velog.io/@2ood)
-* email : kyungmin.official0@gmail.com
+##### I like to build what I am in need.
+##### [profile page](http://2ood.github.io/2ood) / [velog](https://velog.io/@2ood)
+
+email : kyungmin.official0@gmail.com
 
 
 ## Github
