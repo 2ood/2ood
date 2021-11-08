@@ -19,7 +19,4 @@
 
 ### 4. I want to broaden my insight as a programmer
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=2ood&repo=learnjs)](https://github.com/2ood/learnjs)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=2ood&repo=javascript101)](https://github.com/2ood/javascript101)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=2ood&repo=Backend-Ga-MoNya)](https://github.com/2ood/Backend-Ga-MoNya)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=2ood&repo=learnFlutter)](https://github.com/2ood/learnFlutter)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=2ood&repo=sandbox)](https://github.com/2ood/sandbox)
