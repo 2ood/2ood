@@ -1,4 +1,7 @@
-h1, h2, h3, h4, h5, h6, body, div, span, nav, li,p, ul {margin:0; padding:0}
+* {
+  margin:0;
+  padding:0
+}
 a {text-decoration:none ; font-family : 'Gothic A1'; color : BLACK;}
 a:hover { text-decoration:underline; }
 
@@ -14,10 +17,10 @@ p.bottom-right {
   text-align:right;
   position: absolute;
   bottom: 8px;
-  right: 16px; 
+  right: 16px;
 }
 
-.intro > p.subtitle {
+.intro > p.description {
     font-size : 20px;
 }
 
@@ -29,7 +32,7 @@ p.bottom-right {
     background-color : #E9E4E1;
     font-family: 'Gothic A1-Thin';
 }
-.project-list, .writings-list {
+#projects-list, .writings-list {
     padding-top : 2em;
     float :center ;
     width : 60%;
@@ -37,7 +40,7 @@ p.bottom-right {
     font-family: 'Gothic A1-SemiBold';
 }
 
-.project, .writing { 
+.project, .writing {
     margin : 10px 20px 15px 0;
     padding : 15px;
     background-color : #f5f5f5;
