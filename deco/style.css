@@ -1,73 +1,281 @@
 * {
   margin:0;
-  padding:0
+  padding:0;
+  box-sizing: border-box;
 }
-a {text-decoration:none ; font-family : 'Gothic A1'; color : BLACK;}
-a:hover { text-decoration:underline; }
+
+h1 {font-size: 45px;}
+h2 {font-size: 40px;}
+h3 {font-size: 30px;}
+h4 {font-size: 25px;}
+h5 {font-size: 22px;}
+h6 {font-size: 20px;}
+p {font-size: 18px;}
+
+:root {
+  --font-size-h1 : 50px;
+  --font-size-h2 : 40px;
+  --font-size-h3 : 30px;
+  --font-size-h4 : 25px;
+  --font-size-h5 : 22px;
+  --font-size-h6 : 20px;
+  --normal-size : 18px;
+}
+
+@media (max-width :991px) {
+  h1 {font-size: 30px;}
+  h2 {font-size: 25px;}
+  h3 {font-size: 22px;}
+  h4 {font-size: 20px;}
+  h5 {font-size: 18px;}
+  h6 {font-size: 16px;}
+  p {font-size: 16px;}
+
+  :root {
+    --font-size-h1 : 30px;
+    --font-size-h2 : 25px;
+    --font-size-h3 : 22px;
+    --font-size-h4 : 20px;
+    --font-size-h5 : 18px;
+    --font-size-h6 : 16px;
+    --normal-size : 16px;
+  }
+}
 
 
-p{
+
+body {
+  font-family: 'Gothic A1-Bold';
+}
+
+main {
+  height : 100vh;
+}
+
+a, a:visited {
+  color : black;
+  text-decoration: none;
+}
+
+select-language {
+  position : absolute;
+  top : 20px;
+  right : 40px;
+  z-index : 1000;
+}
+
+select-language select {
+  border-radius : 5px;
+  border : 2px #33333333 solid;
+  padding : 10px;
+  background-color: white;
+  font-size: var(--font-size-h5);
+}
+
+
+nav {
+  display : inline-grid;
+  position: fixed;
+  z-index : 1000;
+  bottom : 30px;
+  left : 30px;
+  grid-template: 1fr 1fr 1fr 1fr 1fr/ 1fr;
+}
+
+nav chapter {
+  display : inline-flex;
+  align-items: center;
+  height : 50px;
+  font-size: var(--font-size-h4);
+  color : #33333333;
+  transition: .5s all ease-in-out;
+}
+
+nav chapter.current-chapter {
+  font-size: var(--font-size-h2);
+  color : black;
+  transition: .5s all ease-in-out;
+}
+
+slidegroup {
+  display : flex;
+  position: absolute;
+  flex-direction: column;
+  scroll-snap-type : y mandatory;
+  scroll-behavior: smooth;
+  overflow: auto;
+  flex-flow: column nowrap;
+  top :0;
+  bottom : 0;
+  right :0;
+  left : 0;
+}
+
+slide {
+  flex: none;
+  display : inline-block;
+  padding: 100px;
+  width :100%;
+  height : 100%;
+  scroll-snap-align : start;
+}
+
+slide.title-and-desc{
+  display : inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+slide.title-and-desc > h1:after {
+  content : '';
+  border : 1px black solid;
+  display: block;
+  width : 100px;
+  margin : 0 auto;
+  margin-bottom : 20px;
+}
+
+slide.two-column {
+  display : inline-grid;
+  grid-template: 1fr / 1fr 1fr;
+}
+
+slide.two-column > column {
+  display : inline-block;
+}
+
+slide#about p {
+  margin-bottom : 10px;
+}
+slide#about column > img {
+  width : 23vw;
+  height : 30vw;
+  border-radius: 10vw;
+}
+column.horizontal-centered {
+  display : inline-block;
+  text-align: center;
+  margin : auto 0;
+}
+
+
+
+column > img.portrait-demo, column > img.landscape-demo, column > img.square-demo {
+  display: inline-block;
+  transform:rotate(0,0,0);
+  transition: .5s all ease-in-out;
+}
+
+column > img.portrait-demo {
+  border : 1px #33333333 solid;
+  width : 20vw;
+  height : 30vw;
+}
+
+column > img.landscape-demo {
+  border : 1px #33333333 solid;
+  width : 30vw;
+  height : 18vw;
+}
+
+column > img.square-demo {
+  width : 30vw;
+  height : 30vw;
+}
+
+slide.current column > img.portrait-demo, slide.current column > img.landscape-demo, slide.current column > img.square-demo {
+  transition: .5s all ease-in-out;
+  transform : rotateY(-5deg) rotateX(5deg) rotateZ(5deg);
+  box-shadow: 50px 50px 100px #333333;
+}
+
+chipgroup {
+  display : inline-block;
+  max-width: 50%;
+}
+chip {
+  background-color: #33333333;
+  color : black;
+  border-radius : .5em;
+  padding : .3em .3em 0 .3em;
+  display: inline-grid;
+  vertical-align: middle;
+  font-size: var(--normal-size);
+  margin-bottom : .3em;
+}
+
+chipgroup#contacts-group {
+  width : 100%;
+  max-width: 100%;
+}
+
+chipgroup#contacts-group chip{
+  background-color: transparent;
+}
+
+chipgroup#contacts-group chip > img {
+    width : 50px;
+    height : 50px;
+}
+
+anchorgroup {
+  display : inline-flex;
+  justify-content: space-around;
+  margin-top : 20px;
+  width : 50%;
+  max-width : 50%;
+}
+
+anchorgroup > a {
+  font-size: var(--font-size-h4);
+  transition : .3s all ease-in-out;
+  text-align: left;
+}
+
+anchorgroup > a:hover {
+  color : #33333333;
+  transition : .3s all ease-in-out;
+}
+
+p {
     font-family: 'Gothic A1-Thin';
     margin-top : 4px;
 }
 
-p.bottom-right {
-  font-family : 'Gothic A1-ExtraBold';
-  color : #B9B4B1;
-  text-align:right;
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
+slide#writings ul {
+    list-style: none;
+    display : grid;
+    flex-direction: column nowrap;
 }
 
-.intro > p.description {
-    font-size : 20px;
+slide#writings ul li{
+  display : inline-block;
+  text-align: left;
+  padding : 20px;
+  margin-bottom : 20px;
+  border-radius : 5px;
+  width : 100%;
+  background-color: #33333333;
+  transition : .2s all ease-in-out;
 }
 
-.intro {
-    padding-top: 2em;
-    padding-bottom:3em;
-    text-align:center;
-    height: 5em;
-    background-color : #E9E4E1;
-    font-family: 'Gothic A1-Thin';
-}
-#projects-list, .writings-list {
-    padding-top : 2em;
-    float :center ;
-    width : 60%;
-    margin : auto;
-    font-family: 'Gothic A1-SemiBold';
+slide#writings ul li:hover{
+  opacity : .5;
+  transition : .2s all ease-in-out;
 }
 
-.project, .writing {
-    margin : 10px 20px 15px 0;
-    padding : 15px;
-    background-color : #f5f5f5;
-    border-radius:9px;
-    height : 10em;
-    width : 10em;
-    display : inline-block;
-    vertical-align: top;
-    position : relative;
-}
-.project:hover, .writing:hover {
-    background-color: #e1e1e1;
-    transition: background-color .5s;
+slide#contacts {
+  display : flex;
+  flex: none;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-end;
+  text-align: right;
 }
 
-.project:not(:hover), .writing:not(:hover) {
-    background-color: #f5f5f5;
-    transition: background-color .3s;
-}
-
-
-img.go {
-    margin-top : 10px;
-    height: 30px;
-}
-
-img.in-text {
-    margin-top : 10px;
-    height: 1em;
+slide#contacts h1, slide#contacts p {
+  width : 100%;
+  text-align: end;
 }
