@@ -22,26 +22,6 @@ p {font-size: 18px;}
   --normal-size : 18px;
 }
 
-@media (max-width :991px) {
-  h1 {font-size: 30px;}
-  h2 {font-size: 25px;}
-  h3 {font-size: 22px;}
-  h4 {font-size: 20px;}
-  h5 {font-size: 18px;}
-  h6 {font-size: 16px;}
-  p {font-size: 16px;}
-
-  :root {
-    --font-size-h1 : 30px;
-    --font-size-h2 : 25px;
-    --font-size-h3 : 22px;
-    --font-size-h4 : 20px;
-    --font-size-h5 : 18px;
-    --font-size-h6 : 16px;
-    --normal-size : 16px;
-  }
-}
-
 body {
   font-family: 'Gothic A1-Bold';
 }
@@ -175,8 +155,6 @@ column.horizontal-centered {
   margin : auto 0;
 }
 
-
-
 column > img.portrait-demo, column > img.landscape-demo, column > img.square-demo {
   display: inline-block;
   transform:rotate(0,0,0);
@@ -293,4 +271,104 @@ slide#contacts {
 slide#contacts h1, slide#contacts p {
   width : 100%;
   text-align: end;
+}
+
+@media (max-width :991px) {
+  h1 {font-size: 25px;}
+  h2 {font-size: 20px;}
+  h3 {font-size: 18px;}
+  h4 {font-size: 16px;}
+  h5 {font-size: 15px;}
+  h6 {font-size: 14px;}
+  p {font-size: 14px;}
+
+  :root {
+    --font-size-h1 : 30px;
+    --font-size-h2 : 25px;
+    --font-size-h3 : 22px;
+    --font-size-h4 : 20px;
+    --font-size-h5 : 18px;
+    --font-size-h6 : 16px;
+    --normal-size : 16px;
+  }
+
+  select-language {
+    position : absolute;
+    top : 7vw;
+    right : 7vw;
+    z-index : 1000;
+  }
+
+  select-language select {
+    border-radius : 5px;
+    border : 2px #33333333 solid;
+    padding : 5px;
+    background-color: white;
+    font-size: var(--font-size-h5);
+  }
+
+  nav {
+    position: fixed;
+    z-index : 1000;
+    top : 30px;
+    bottom : calc(100vh - 30px);
+    left : 30px;
+  }
+
+  nav chapter {
+    height : 20px;
+    font-size: var(--font-size-h6);
+    color : #33333333;
+    transition: .5s all ease-in-out;
+  }
+
+  nav chapter.current-chapter {
+    font-size: var(--font-size-h5);
+    color : black;
+    transition: .5s all ease-in-out;
+  }
+
+  slide {
+    padding: 20px;
+  }
+
+  slide.two-column {
+    display : inline-flex;
+    flex-direction: column-reverse;
+  }
+
+  slide.two-column > column.horizontal-centered:last-child {
+    margin-bottom : 0;
+  }
+
+  column > img.portrait-demo {
+    width : 40vw;
+    height : 70vw;
+  }
+
+  column > img.landscape-demo {
+    width : 70vw;
+    height : 40vw;
+  }
+
+  column > img.square-demo {
+    width : 70vw;
+    height : 70vw;
+  }
+
+  slide#contacts {
+    padding-top : 0;
+    padding-bottom : 10vw;
+    padding-right : 10vw;
+  }
+
+  chipgroup#contacts-group chip > img {
+    width : 7vw;
+    height : 7vw;
+  }
+
+  slide.current column > img.portrait-demo, slide.current column > img.landscape-demo, slide.current column > img.square-demo {
+    box-shadow: 20px 20px 10px #33333333;
+  }
+
 }
