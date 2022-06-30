@@ -42,10 +42,25 @@ p {font-size: 18px;}
   }
 }
 
-
-
 body {
   font-family: 'Gothic A1-Bold';
+}
+curtain {
+    position : absolute;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width : 100%;
+    height : 100%;
+    z-index : 2000;
+    background-color: skyblue;
+    color : black;
+    font-size: var(--font-size-h2);
+}
+
+curtain.fadeout {
+  opacity : 0;
+  transition : .8s all ease-in-out;
 }
 
 main {

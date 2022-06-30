@@ -1,8 +1,11 @@
+const curtain = document.getElementById("curtain");
 const slidegroup = document.getElementById('slidegroup');
 const slides = [].slice.call(document.getElementsByTagName("slide"));
 const chapters = [].slice.call(document.getElementsByTagName("chapter"));
 const viewport_height = window.innerHeight;
 const select_language = document.getElementById("language");
+const current_lang = document.getElementsByTagName('html')[0].getAttribute("lang");
+
 slidegroup.addEventListener("scroll", function(evt){
   let top = slidegroup.scrollTop;
 
@@ -34,12 +37,19 @@ slidegroup.addEventListener("scroll", function(evt){
 });
 
 select_language.addEventListener("change",function(evt){
-  if(window.location.href="https://2ood.github.io/2ood/ko/index.html")
-    window.location.href="https://2ood.github.io/2ood/index.html";
-  else window.location.href="https://2ood.github.io/2ood/ko/index.html";
+  if(current_lang==evt.srcElement.value) return ;
+  else {
+    switch(current_lang){
+      case 'ko' : window.location.href="https://2ood.github.io/2ood/index.html"; break;
+      case 'en' : window.location.href="https://2ood.github.io/2ood/ko/index.html";
+    }
+  }
 });
 
 document.addEventListener("DOMContentLoaded",function(){
+  curtain.innerHTML = (current_lang=='ko')?"환영합니다!":"Welcome!";
+  setTimeout(function(){curtain.classList.add("fadeout")},1000);
+  setTimeout(function(){curtain.parentNode.removeChild(curtain)},2000);
   slides[0].classList.add("current");
   chapters[0].classList.add("current-chapter");
 });
