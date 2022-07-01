@@ -1,14 +1,16 @@
 
 @font-face {
     font-family: 'Gothic A1-Bold';
-    src: url('./font-gothic-a1/GothicA1-Bold.woff2') format('woff2');
+    src: local('Gothic A1-Bold') url('./font-gothic-a1/GothicA1-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Gothic A1-Thin';
-    src: url('./font-gothic-a1/GothicA1-Thin.woff2') format('woff2');
+    src: local('Gothic A1-Thin') url('./font-gothic-a1/GothicA1-Thin.woff2') format('woff2');
     font-weight: 100;
     font-style: normal;
+    font-display: swap;
 }
