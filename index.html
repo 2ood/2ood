@@ -4,8 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hi! I'm 2ood.</title>
     <link rel="stylesheet" href="deco/style.css">
-    <link rel ='stylesheet' href='deco/font.css'>
-	<link rel="icon" href="src/img/favicon.png" type="image/png"/>
+    <link rel='stylesheet' href='deco/font.css'>
+  	<link rel="icon" href="src/img/favicon.png" type="image/png"/>
+    <script src="script.js" async></script>
     </head>
 <body>
     <curtain id="curtain">
@@ -261,8 +262,14 @@
               </slide>
             </slidegroup>
         </main>
+        <script type="text/javascript">
+        const curtain = document.getElementById("curtain");
+        const slidegroup = document.getElementById('slidegroup');
+        const slides = [].slice.call(document.getElementsByTagName("slide"));
+        const chapters = [].slice.call(document.getElementsByTagName("chapter"));
+        const viewport_height = window.innerHeight;
+        const select_language = document.getElementById("language");
+        const current_lang = document.getElementsByTagName('html')[0].getAttribute("lang");
+        </script>
     </body>
-    <script src="script.js"></script>
-<footer>
-</footer>
 </html>

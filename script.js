@@ -1,11 +1,3 @@
-const curtain = document.getElementById("curtain");
-const slidegroup = document.getElementById('slidegroup');
-const slides = [].slice.call(document.getElementsByTagName("slide"));
-const chapters = [].slice.call(document.getElementsByTagName("chapter"));
-const viewport_height = window.innerHeight;
-const select_language = document.getElementById("language");
-const current_lang = document.getElementsByTagName('html')[0].getAttribute("lang");
-
 document.addEventListener("DOMContentLoaded",function(){
   slidegroup.addEventListener("scroll", function(evt){
     let top = slidegroup.scrollTop;
