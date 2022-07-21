@@ -12,6 +12,6 @@ I like to run.
 
 I would like to read.
 
-I like listening to Rock-Balad songs.
+I like sentimental ballad songs.
 
 [visit my profile page](http://2ood.github.io/2ood)
