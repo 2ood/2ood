@@ -179,7 +179,7 @@ column > img.square-demo {
 slide.current column > img.portrait-demo, slide.current column > img.landscape-demo, slide.current column > img.square-demo {
   transition: .5s all ease-in-out;
   transform : rotateY(-5deg) rotateX(5deg) rotateZ(5deg);
-  box-shadow: 50px 50px 100px #333333;
+  filter: drop-shadow(2px 4px 10px black);
 }
 
 chipgroup {
