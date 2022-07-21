@@ -366,7 +366,7 @@ slide#contacts h1, slide#contacts p {
   }
 
   slide.current column > img.portrait-demo, slide.current column > img.landscape-demo, slide.current column > img.square-demo {
-    box-shadow: 20px 20px 10px #33333333;
+    filter: drop-shadow(2px 4px 10px black);
   }
 
 }
