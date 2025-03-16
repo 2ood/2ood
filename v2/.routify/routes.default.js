@@ -45,6 +45,20 @@ export const routes = {
       "children": [
         {
           "meta": {},
+          "id": "_default_project_archived_svelte",
+          "name": "archived",
+          "file": {
+            "path": "src/routes/project/archived.svelte",
+            "dir": "src/routes/project",
+            "base": "archived.svelte",
+            "ext": ".svelte",
+            "name": "archived"
+          },
+          "asyncModule": () => import('../src/routes/project/archived.svelte'),
+          "children": []
+        },
+        {
+          "meta": {},
           "id": "_default_project_friends_tutor_svx",
           "name": "friends-tutor",
           "file": {

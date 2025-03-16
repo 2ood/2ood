@@ -3,9 +3,10 @@
     import Button from "./Button.svelte";
     import Tag from "./Tag.svelte";
     import TechIcon from "./TechIcon.svelte";
+    import ListChip from "./ListChip.svelte";
 </script>
 
-<listchip>
+<ListChip>
     <div class="header">
         <h4>{project.name}</h4>
         <p>{project.timestamp}</p>
@@ -32,24 +33,10 @@
         <Button onclick={() => (window.location.href = project.docs)} algin_self="flex-end">docs</Button>
         {/if}
     </div>
-</listchip>
+</ListChip>
 
 
 <style>
-    listchip {
-        display : inline-flex;
-        justify-content: center;
-        flex-direction: column;
-        background-color :var(--color-gray-background);
-        border-radius: 10px;
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-        color : var(--color-blue-primary);
-        transition: height 4s ease-in-out;
-        padding : 10px;
-        gap : 3px;
-        margin-bottom: .5rem;
-    }
-
     div.header {
         display : inline-flex;
         justify-content: space-between;

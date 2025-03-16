@@ -4,7 +4,8 @@
 	export let title
 	export let date
 	export let summary
-    import MdArrowBack from 'svelte-icons/md/MdArrowBack.svelte'
+    import { reveal } from 'svelte-reveal';
+    import BackButton from "../components/BackButton.svelte";
 
     const publish_date = new DateProvider(date);
 </script>
@@ -14,10 +15,8 @@
 	<meta property="og:title" content={title} />
 </svelte:head>
 
-<div id="md-container">
-    <button id="back-button" onclick={() => history.back()}>
-        <MdArrowBack />
-    </button>
+<div id="md-container" use:reveal>
+    <BackButton />
     <article>
         <h1>{title}</h1>
         <date>{publish_date.toReadableDate()}</date>

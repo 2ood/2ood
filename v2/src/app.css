@@ -105,6 +105,14 @@ section.center {
   gap: 2rem;
 }
 
+section.right-bottom {
+  display : inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding : 200px;
+}
+
 columngroup {
   display : inline-flex;
   max-width : 1200px;

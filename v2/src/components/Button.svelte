@@ -18,5 +18,14 @@
         text-transform: uppercase;
         font-weight: bold;
         font-size: .8rem;
+        transition: background-color 0.1s ease;
+    }
+
+    button:hover {
+        background-color: var(--color-blue-secondary);
+    }
+
+    button:active {
+        background-color: var(--color-blue-shading);
     }
 </style>

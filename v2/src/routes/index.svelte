@@ -2,7 +2,9 @@
     import ProjectListChip from "../components/ProjectListChip.svelte";
     import {projects} from "../assets/projects.json";
     import { reveal } from 'svelte-reveal';
-
+    import Button from "../components/Button.svelte";
+    import ListChip from "../components/ListChip.svelte";
+    import Icon from "@iconify/svelte";
 </script>
 
 <main>
@@ -30,8 +32,39 @@
                 {#each projects.toy as project}
                 <ProjectListChip project={project} />
                 {/each}
+                <a href="/project/archived">and more..</a>
             </column>
         </columngroup>
+    </section>
+    <section class="center" use:reveal>
+        <h1> I write things down</h1>
+        <columngroup>
+            <column>
+                <ListChip>
+                    <h3>Knowledge Base</h3>
+                <summary>I write things down to share my knowledge.</summary>
+                <Button onclick={() => window.open("https://2ood.gitbook.io/2ood-knowledge-base", "_blank")} algin_self="flex-end">Visit</Button>
+            </ListChip>
+            </column>
+            <column>
+                <ListChip>
+                    <h3>Tistory Blog</h3>
+                    <summary>I write essays on philosophic questions.</summary>
+                    <Button onclick={() => window.open("https://2ood.tistory.com/", "_blank")} algin_self="flex-end">Visit</Button>
+                    </ListChip>
+            </column>
+        </columngroup>
+    </section>
+    <section class="right-bottom" use:reveal>
+        <h1>Contact me</h1>
+        <p>kyungmin.official0@gmail.com</p>
+        <span id="contact-icons">
+            <a href="mailto:kyungmin.official0@gmail.com" target="_blank"><Icon icon="fluent-color:mail-48" height="50px"/></a>
+            <a href="https://github.com/2ood" target="_blank"><Icon icon="devicon:github" height="50px"/></a>
+            <a href="https://www.linkedin.com/in/2ood/" target="_blank"><Icon icon="devicon:linkedin" height="50px"/></a>
+            <a href="https://www.instagram.com/2ood_pics/" target="_blank"><Icon icon="skill-icons:instagram" height="50px"/></a>
+           
+        </span>
     </section>
 </main>
 

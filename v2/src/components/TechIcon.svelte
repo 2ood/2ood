@@ -42,6 +42,12 @@
         <Icon icon="devicon:netlify" />   
     {:else if tech === "vercel"}
         <Icon icon="devicon:vercel" />
+    {:else if tech === "bootstrap"}
+        <Icon icon="devicon:bootstrap" />
+    {:else if tech === "docusaurus"}
+        <Icon icon="logos:docusaurus" />  
+    {:else if tech === "md"}
+        <Icon icon="material-symbols:markdown" />
     {/if}   
 </techs>
 

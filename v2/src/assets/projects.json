@@ -18,7 +18,15 @@
             "tags" : ["award-winning"],
             "techs" : ["flutter", "dart"],
             "repo" : "https://github.com/2ood/app_web_IoT_UMCS_Team60"
-            }
+            },
+        {
+            "name" : "Oragi",
+            "summary" :"A emotion messaging web app for mental-health purpose",
+            "timestamp" : "2023.04.30",
+            "tags" : ["award-winning"],
+            "techs" : ["react", "netlify"],
+            "repo" : "https://github.com/2ood/oragi-frontend"
+        }
         ],
         "personal" : [
             {
@@ -26,7 +34,7 @@
                 "summary" : "I built a website that generates semantic commit messages.",
                 "timestamp" : "2024.07.09",
                 "tags" : ["semantic-commit", "git"],
-                "techs" : ["js","git"],
+                "techs" : ["js","git","bootstrap"],
                 "demo"  : "https://2ood.github.io/semantic-commit-writer/",
                 "repo" : "https://github.com/2ood/semantic-commit-writer"
             },
@@ -49,6 +57,32 @@
                 "techs" : ["js"],
                 "repo" : "https://github.com/2ood/kakao-api-sandbox"
             }       
+        ],
+        "archived" : [
+            {
+                "name" : "Travel Map",
+                "summary" : "My travelling map. I will color each part as I visit.",
+                "timestamp" : "2022.06.26",
+                "tags" : ["svg"],
+                "techs" : ["js"],
+                "repo" : "https://github.com/2ood/travel-map"
+            },
+            {
+                "name" : "Exam Generator",
+                "summary" : "Exam problems random-selector .jar program.",
+                "timestamp" : "2021.11.08",
+                "tags" : ["jar"],
+                "techs" : ["java"],
+                "repo" : "https://github.com/2ood/exam-generator"
+            },
+            {
+                "name" : "oodlib",
+                "summary" : "My dev blog built with docusaurus.",
+                "timestamp" : "2023.03.01",
+                "tags" : ["blog"],
+                "techs" : ["docusaurus","md"],
+                "repo" : "https://github.com/2ood/2oodlib"
+            }
         ]
     }
 }

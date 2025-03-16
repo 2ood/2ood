@@ -6,7 +6,7 @@ export default {
   // for more information about preprocessors
   extensions: ['.svelte', '.svx'],
   preprocess: [
-    vitePreprocess({extensions: ['.svelte'], }), 
+    vitePreprocess({}), 
     mdsvex({
       extensions: ['.svx'], 
       layout: {

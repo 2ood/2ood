@@ -12,20 +12,6 @@ article {
     transition: all 1s ease-in-out;
 }
 
-#back-button {
-    position: absolute; 
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    top: 30px;
-    left: 30px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    cursor: pointer;
-    background-color: transparent;
-}
-
 date {
     color : var(--color-blue-primary);
 }
