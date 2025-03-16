@@ -1,0 +1,196 @@
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: var(--font-primary), var(--font-fallback);
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  --font-size-h1 : 50px;
+  --font-size-h2 : 40px;
+  --font-size-h3 : 30px;
+  --font-size-h4 : 25px;
+  --font-size-h5 : 22px;
+  --font-size-h6 : 20px;
+  --normal-size : 18px;
+  --font-primary : Inter, Segoe UI, Roboto, Oxygen, Ubuntu, "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --font-fallback : system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  --color-brown-primary : #8d493a;
+  --color-brown-secondary : #D0B8A8;
+  --color-brown-shading :#DFD3C3;
+  --color-brown-background : #F5F5F5;
+
+  --color-blue-primary : #112D4E;
+  --color-blue-secondary : #3F72AF;
+  --color-blue-shading :#BDBDBD;
+  --color-blue-background : #F9F7F7;
+
+  --color-gray-primary : #393E46;
+  --color-gray-secondary : #222831;
+  --color-gray-shading :#00ADB5;
+  --color-gray-background : #EEEEEE;
+}
+
+h1,h2,h3,h4,h5,h6 { color:var(--color-blue-primary);}
+
+h1 {font-size: var(--font-size-h1);}
+h2 {font-size: var(--font-size-h2);}
+h3 {font-size: var(--font-size-h3);}
+h4 {font-size: var(--font-size-h4);}
+h5 {font-size: var(--font-size-h5);}
+h6 {font-size: var(--font-size-h6);}
+
+
+a, a:visited {
+  font-weight: 500;
+  color: var(--color-blue-primary);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--color-blue-secondary);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x : hidden; 
+  color: var(--color-gray-primary);
+  background-color: var(--color-blue-background);  
+}
+
+body::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+#app {
+  display:inline-block;
+  min-width : 100vw;
+  min-height : 100vh;
+}
+
+main {
+  display : inline-flex;
+  min-width: 100vw;
+  min-height : 100vh;
+  flex-direction: column;
+}
+
+section {
+  display : inline-block;
+  min-width : 100vw;
+  min-height : 100vh;
+  margin : 0 auto;
+  padding: 2rem;
+
+}
+
+section.center {
+  display : inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+section.right-bottom {
+  display : inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding : 200px;
+}
+
+columngroup {
+  display : inline-flex;
+  max-width : 1200px;
+  flex-direction: row;
+  gap : 5rem;
+}
+
+columngroup > column {
+  display : inline-flex;
+  flex-direction: column;
+  min-width: calc((1200px - 10rem)/3);
+  width: calc((1200px - 10rem)/3);
+  gap: 1rem;
+}
+
+columngroup > column > h3 {
+  color : var(--color-blue-shading);
+}
+
+button {
+  background-color: var(--color-blue-primary);
+  color: var(--color-blue-shading);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  display : inline-block;
+  min-width: 50px;
+  width : fit-content;
+  font-size: var(--font-size-h6);
+}
+
+button:hover {
+  background-color: var(--color-blue-secondary);
+  color: var(--color-blue-primary);
+}
+
+.career-list {
+  display: flex;
+  width : calc(1200px - 10rem);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.tech-stack .slash {
+  display: inline-flex; 
+  width: 50px; 
+  justify-content: center;
+  color : var(--color-blue-shading);
+}
+
+
+section .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+@media (max-width :991px) {
+  :root {
+    --font-size-h1 : 30px;
+    --font-size-h2 : 25px;
+    --font-size-h3 : 22px;
+    --font-size-h4 : 20px;
+    --font-size-h5 : 18px;
+    --font-size-h6 : 16px;
+    --normal-size : 16px;
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "author" : "2ood",
+    "careers" : {
+        "internship" : [
+        {
+            "name" : "Lab Internship @ GIST DS Lab",
+            "summary" : "Neuro-symbolic AI research team",
+            "date" : "2025.03.04 - present"
+        },
+        {
+            "name" : "Undergraduate @ GIST",
+            "summary" : "Major in Computer Science and Engineering, minor in { Mathematics, cognitive science }",
+            "date" : "2020.03.01 - present"
+        },
+        {
+            "name" : "Student Exchange Program @ POSTECH",
+            "summary" : "Exchange student from GIST",
+            "date" : "2023.03.01 - 2023.08.31"
+        },
+        {
+            "name" : "Graduated High School @ KMLA",
+            "summary" : "Korean Minjok Leadership Academy, 민족사관고",
+            "date" : "2017.03.01 - 2020.02.28"
+        }
+        ]
+    }
+}
