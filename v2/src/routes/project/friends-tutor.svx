@@ -1,0 +1,9 @@
+---
+title: "Friends Tutor"
+date: 2024.03.31
+summary: "Friends Tutor is a lecture provider platform where lectures recorded by students are shared worldwide."
+layout: project
+---
+
+Friends Tutor is a lecture provider platform where lectures recorded by students are shared worldwide.
+

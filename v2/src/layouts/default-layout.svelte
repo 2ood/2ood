@@ -2,6 +2,6 @@
 	import "./layout.css";	
 </script>
 
-<section>
+<article>
 	<slot />
-</section>
+</article>

@@ -1,6 +1,6 @@
 
 
-export default {
+export const routes = {
   "meta": {},
   "id": "_default",
   "name": "",
@@ -44,6 +44,20 @@ export default {
       },
       "children": [
         {
+          "meta": {},
+          "id": "_default_project_friends_tutor_svx",
+          "name": "friends-tutor",
+          "file": {
+            "path": "src/routes/project/friends-tutor.svx",
+            "dir": "src/routes/project",
+            "base": "friends-tutor.svx",
+            "ext": ".svx",
+            "name": "friends-tutor"
+          },
+          "asyncModule": () => import('../src/routes/project/friends-tutor.svx'),
+          "children": []
+        },
+        {
           "meta": {
             "isDefault": true
           },
@@ -72,6 +86,34 @@ export default {
           },
           "asyncModule": () => import('../src/routes/project/kakao-api-sandbox.svx'),
           "children": []
+        },
+        {
+          "meta": {},
+          "id": "_default_project_semantic_commit_writer_svx",
+          "name": "semantic-commit-writer",
+          "file": {
+            "path": "src/routes/project/semantic-commit-writer.svx",
+            "dir": "src/routes/project",
+            "base": "semantic-commit-writer.svx",
+            "ext": ".svx",
+            "name": "semantic-commit-writer"
+          },
+          "asyncModule": () => import('../src/routes/project/semantic-commit-writer.svx'),
+          "children": []
+        },
+        {
+          "meta": {},
+          "id": "_default_project_umcs_svx",
+          "name": "umcs",
+          "file": {
+            "path": "src/routes/project/umcs.svx",
+            "dir": "src/routes/project",
+            "base": "umcs.svx",
+            "ext": ".svx",
+            "name": "umcs"
+          },
+          "asyncModule": () => import('../src/routes/project/umcs.svx'),
+          "children": []
         }
       ]
     },
@@ -95,3 +137,4 @@ export default {
     }
   ]
 }
+export default routes

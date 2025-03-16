@@ -29,11 +29,11 @@
   --color-brown-primary : #8d493a;
   --color-brown-secondary : #D0B8A8;
   --color-brown-shading :#DFD3C3;
-  --color-brown-background : #F8EDE3;
+  --color-brown-background : #F5F5F5;
 
   --color-blue-primary : #112D4E;
   --color-blue-secondary : #3F72AF;
-  --color-blue-shading :#DBE2EF;
+  --color-blue-shading :#BDBDBD;
   --color-blue-background : #F9F7F7;
 
   --color-gray-primary : #393E46;
@@ -42,7 +42,7 @@
   --color-gray-background : #EEEEEE;
 }
 
-h1,h2,h3,h4,h5,h6 { color:var(--color-brown-primary);}
+h1,h2,h3,h4,h5,h6 { color:var(--color-blue-primary);}
 
 h1 {font-size: var(--font-size-h1);}
 h2 {font-size: var(--font-size-h2);}
@@ -68,7 +68,11 @@ body {
   min-height: 100vh;
   overflow-x : hidden; 
   color: var(--color-gray-primary);
-  background-color: var(--color-brown-background);
+  background-color: var(--color-blue-background);  
+}
+
+body::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
 }
 
 #app {
@@ -90,6 +94,7 @@ section {
   min-height : 100vh;
   margin : 0 auto;
   padding: 2rem;
+
 }
 
 section.center {
@@ -97,40 +102,45 @@ section.center {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
 
 columngroup {
   display : inline-flex;
-  width : calc(100vw - 4rem);
+  max-width : 1200px;
   flex-direction: row;
-  justify-content: center;
+  gap : 5rem;
 }
 
 columngroup > column {
   display : inline-flex;
   flex-direction: column;
-  min-width: calc((100vw - 10rem)/3);
-  width: calc((100vw - 10rem)/3);
-  align-items : center;
+  min-width: calc((1200px - 10rem)/3);
+  width: calc((1200px - 10rem)/3);
+  gap: 1rem;
 }
 
-
-card {
-  display : inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color :var(--color-brown-secondary);
-  color : var(--color-brown-primary);
-  transition: height 4s ease-in-out;
-  padding : 10px;
+columngroup > column > h3 {
+  color : var(--color-blue-shading);
 }
 
-card.hide {
-  height : 0;
-  padding:0;
-  overflow: hidden;;
+button {
+  background-color: var(--color-blue-primary);
+  color: var(--color-blue-shading);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  display : inline-block;
+  min-width: 50px;
+  width : fit-content;
+  font-size: var(--font-size-h6);
 }
 
+button:hover {
+  background-color: var(--color-blue-secondary);
+  color: var(--color-blue-primary);
+}
 
 @media (max-width :991px) {
   :root {

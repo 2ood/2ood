@@ -1,31 +1,54 @@
 {
     "author" : "2ood",
-    "projects" : [
+    "projects" : {
+        "official" : [
         {
-            "name" : "kakao api sandbox",
-            "summary" : "kakao send-to-me api tester",
-            "timestamp" : "2024.03.25",
-            "href"  : "/project/kakao-api-sandbox",
+            "name" : "Friends Tutor",
+            "summary" : "Lecture provider platform where lectures recorded by friends are shared.",
+            "timestamp" : "2024.02.14 - 2024.03.31",
+            "demo"  : "https://friends-tutor.vercel.app/",
             "tags" : [],
-            "repo" : ""
+            "techs" : ["react", "netlify"],
+            "repo" : "https://github.com/2ood/friends-tutor"
         },
         {
-            "name" : "kakao api sandbox",
-            "summary" : "kakao send-to-me api tester",
+            "name" : "UMCS",
+            "summary" : "Untact movement control system",
             "timestamp" : "2024.03.25",
-            "href"  : "/project/kakao-api-sandbox"
-        },
-        {
-            "name" : "kakao api sandbox",
-            "summary" : "kakao send-to-me api tester",
-            "timestamp" : "2024.03.25",
-            "href"  : "/project/kakao-api-sandbox"
-        },
-        {
-            "name" : "kakao api sandbox",
-            "summary" : "kakao send-to-me api tester",
-            "timestamp" : "2024.03.25",
-            "href"  : "/project/kakao-api-sandbox"
-        }
-    ]
+            "tags" : ["award-winning"],
+            "techs" : ["flutter", "dart"],
+            "repo" : "https://github.com/2ood/app_web_IoT_UMCS_Team60"
+            }
+        ],
+        "personal" : [
+            {
+                "name" : "Semantic Commit Writer",
+                "summary" : "I built a website that generates semantic commit messages.",
+                "timestamp" : "2024.07.09",
+                "tags" : ["semantic-commit", "git"],
+                "techs" : ["js","git"],
+                "demo"  : "https://2ood.github.io/semantic-commit-writer/",
+                "repo" : "https://github.com/2ood/semantic-commit-writer"
+            },
+            {
+                "name" : "2ood's Portfolio",
+                "summary" : "I built a website that showcases my projects and skills.",
+                "timestamp" : "2025.03.16",
+                "tags" : ["portfolio", "svelte"],
+                "techs" : ["svelte", "vercel"],
+                "demo"  : "https://2ood.vercel.app/",
+                "repo" : "https://github.com/2ood/"
+            }
+        ],
+        "toy" : [
+            {
+                "name" : "KAKAO API Sandbox",
+                "summary" : "I built an API tester for Kakaotalk send-to-myself API",
+                "timestamp" : "2024.03.25",
+                "tags" : ["API", "KAKAO"],
+                "techs" : ["js"],
+                "repo" : "https://github.com/2ood/kakao-api-sandbox"
+            }       
+        ]
+    }
 }
