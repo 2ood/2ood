@@ -18,33 +18,8 @@
     <section class="center" use:reveal>
         <div class="header">
             <h1>I am a FE developer</h1>
-            <div class="tech-stack">
-            <summary>Tech Stack</summary>
-                <span> 
-                    <TechIcon tech="js" />
-                    <TechIcon tech="python" />
-                    <TechIcon tech="java" />
-                    <span class="slash">/</span>
-                    <TechIcon tech="react" />
-                    <TechIcon tech="svelte" />
-                    <span class="slash">/</span>
-                    <TechIcon tech="express" />
-                    <TechIcon tech="django" />
-                    <span class="slash">/</span>
-                    <TechIcon tech="mysql" />
-                    <TechIcon tech="mongodb" />
-                    <span class="slash">/</span>
-                    <TechIcon tech="flutter" />
-                    <TechIcon tech="dart" />
-                    <span class="slash">/</span>
-                    <TechIcon tech="vercel" />
-                    <TechIcon tech="netlify" />
-                    <TechIcon tech="vite" />
-                    <TechIcon tech="bootstrap" />                
-                </span>
-            </div>
+            <p> I generally use React, Svelte, sometimes vanilla JS.</p>
         </div>
-        
         <columngroup>
             <column class="left">
                 <h3>Team</h3>

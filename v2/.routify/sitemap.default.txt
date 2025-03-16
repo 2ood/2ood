@@ -1,9 +1,0 @@
-/
-/index
-/project
-/project/archived
-/project/friends-tutor
-/project/index
-/project/kakao-api-sandbox
-/project/semantic-commit-writer
-/project/umcs

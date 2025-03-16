@@ -8,7 +8,7 @@
             "timestamp" : "2024.02.14 - 2024.03.31",
             "demo"  : "https://friends-tutor.vercel.app/",
             "tags" : [],
-            "techs" : ["react", "netlify"],
+            "techs" : ["react", "netlify","vite"],
             "repo" : "https://github.com/2ood/friends-tutor"
         },
         {
@@ -24,7 +24,7 @@
             "summary" :"A emotion messaging web app for mental-health purpose",
             "timestamp" : "2023.04.30",
             "tags" : ["award-winning"],
-            "techs" : ["react", "netlify"],
+            "techs" : ["react", "netlify","vite"],
             "repo" : "https://github.com/2ood/oragi-frontend"
         }
         ],
@@ -43,7 +43,7 @@
                 "summary" : "I built a website that showcases my projects and skills.",
                 "timestamp" : "2025.03.16",
                 "tags" : ["portfolio", "svelte"],
-                "techs" : ["svelte", "vercel"],
+                "techs" : ["svelte", "vercel","vite"],
                 "demo"  : "https://2ood.vercel.app/",
                 "repo" : "https://github.com/2ood/"
             }
