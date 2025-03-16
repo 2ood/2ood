@@ -11,6 +11,7 @@
   "devDependencies": {
     "@iconify/svelte": "^4.2.0",
     "@roxi/routify": "^3.0.0-next.230",
+    "@sveltejs/adapter-vercel": "^0.0.3",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "mdsvex": "^0.12.3",
     "svelte": "^5.0.0",
