@@ -7,7 +7,7 @@
     import Button from "../components/Button.svelte";
     import ListChip from "../components/ListChip.svelte";
     import Icon from "@iconify/svelte";
-    import TechIcon from "../components/TechIcon.svelte";
+    import ScrollDownIndicator from "../components/ScrollDownIndicator.svelte";
 </script>
 
 <main>
@@ -81,6 +81,6 @@
             <a href="https://www.instagram.com/2ood_pics/" target="_blank"><Icon icon="skill-icons:instagram" height="50px"/></a>
         </span>
     </section>
+    <ScrollDownIndicator />
 </main>
-
 
