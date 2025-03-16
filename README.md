@@ -14,4 +14,4 @@ I would like to read.
 
 I like sentimental ballad songs.
 
-[visit my profile page](https://2ood.vercel/app)
+[visit my profile page](https://2ood.vercel.app/)
