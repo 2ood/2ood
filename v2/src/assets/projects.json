@@ -65,7 +65,8 @@
                 "timestamp" : "2022.06.26",
                 "tags" : ["svg"],
                 "techs" : ["js"],
-                "repo" : "https://github.com/2ood/travel-map"
+                "repo" : "https://github.com/2ood/travel-map",
+                "demo" : "https://2ood.github.io/travel-map/"
             },
             {
                 "name" : "Exam Generator",
@@ -81,7 +82,24 @@
                 "timestamp" : "2023.03.01",
                 "tags" : ["blog"],
                 "techs" : ["docusaurus","md"],
-                "repo" : "https://github.com/2ood/2oodlib"
+                "repo" : "https://github.com/2ood/oodlib"
+            },
+            {
+                "name" : "todo-dashboard",
+                "summary" : "A todo dashboard built with vanilla js.",
+                "timestamp" : "2024.03.25",
+                "tags" : ["js","express","firebase"],
+                "techs" : ["js","express","heroku","firebase"],
+                "repo" : "https://github.com/2ood/todo-dashboard",
+                "demo" : "https://todo-dashboard-2ood.herokuapp.com/"
+            },
+            {
+                "name" : "2ood blog",
+                "summary" : "My first blog build attempt with vanilla js",
+                "timestamp" : "2022.04.15",
+                "tags" : ["js","firebase"],
+                "techs" : ["js","firebase"],
+                "repo" : "https://github.com/2ood/blog"
             }
         ]
     }

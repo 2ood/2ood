@@ -50,6 +50,10 @@
         <Icon icon="material-symbols:markdown" />
     {:else if tech === "vite"}
         <Icon icon="vscode-icons:file-type-vite" />
+    {:else if tech === "heroku"}
+        <Icon icon="skill-icons:heroku" />
+    {:else if tech === "firebase"}
+        <Icon icon="devicon:firebase" />
     {/if}   
 </techs>
 
