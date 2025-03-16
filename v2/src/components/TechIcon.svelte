@@ -15,15 +15,15 @@
     {:else if tech === "svelte"}
         <Icon icon="devicon:svelte" />
     {:else if tech === "express"}
-        <Icon icon="devicon:express" />
+        <Icon icon="logos:express" />
     {:else if tech === "django"}
-        <Icon icon="devicon:django" />
+        <Icon icon="logos:django" />
     {:else if tech === "flask"}
         <Icon icon="devicon:flask" />
     {:else if tech === "gcp"}
         <Icon icon="devicon:googlecloud" />
     {:else if tech === "mysql"}
-        <Icon icon="devicon:mysql" />
+        <Icon icon="logos:mysql" />
     {:else if tech === "mongodb"}
         <Icon icon="devicon:mongodb" />
     {:else if tech === "git"}
@@ -48,6 +48,8 @@
         <Icon icon="logos:docusaurus" />  
     {:else if tech === "md"}
         <Icon icon="material-symbols:markdown" />
+    {:else if tech === "vite"}
+        <Icon icon="vscode-icons:file-type-vite" />
     {/if}   
 </techs>
 

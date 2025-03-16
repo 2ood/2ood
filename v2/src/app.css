@@ -150,6 +150,39 @@ button:hover {
   color: var(--color-blue-primary);
 }
 
+.career-list {
+  display: flex;
+  width : calc(1200px - 10rem);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.tech-stack .slash {
+  display: inline-flex; 
+  width: 50px; 
+  justify-content: center;
+  color : var(--color-blue-shading);
+}
+
+
+section .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
 @media (max-width :991px) {
   :root {
     --font-size-h1 : 30px;

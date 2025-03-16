@@ -4,6 +4,8 @@
     import Tag from "./Tag.svelte";
     import TechIcon from "./TechIcon.svelte";
     import ListChip from "./ListChip.svelte";
+
+    const blur_indicator = document.getElementById("blur-indicator");
 </script>
 
 <ListChip>
@@ -24,13 +26,13 @@
     </div>
     <div class="button-container">
         {#if project.demo}
-        <Button onclick={() => (window.location.href = project.demo)} algin_self="flex-end">demo</Button>
+        <a href={project.demo} target="_blank"><Button algin_self="flex-end">demo</Button></a>
         {/if}
         {#if project.repo}
-        <Button onclick={() => (window.location.href = project.repo)} algin_self="flex-end">repo</Button>
+        <a href={project.repo} target="_blank"><Button algin_self="flex-end">repo</Button></a>
         {/if}
         {#if project.docs}
-        <Button onclick={() => (window.location.href = project.docs)} algin_self="flex-end">docs</Button>
+        <a href={project.docs} target="_blank"><Button algin_self="flex-end">docs</Button></a>
         {/if}
     </div>
 </ListChip>

@@ -1,5 +1,5 @@
 <script>
-    export let onclick;
+    export let onclick = () => {};
     export let algin_self;
 </script>
 
