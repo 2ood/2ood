@@ -91,7 +91,7 @@ main {
 section {
   display : inline-block;
   min-width : 100vw;
-  min-height : 100vh;
+  min-height : 90vh;
   margin : 0 auto;
   padding: 2rem;
 

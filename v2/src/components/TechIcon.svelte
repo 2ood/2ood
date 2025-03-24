@@ -54,6 +54,8 @@
         <Icon icon="skill-icons:heroku" />
     {:else if tech === "firebase"}
         <Icon icon="devicon:firebase" />
+    {:else if tech === "swagger"}
+        <Icon icon="devicon:swagger" /> 
     {/if}   
 </techs>
 

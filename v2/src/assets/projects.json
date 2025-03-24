@@ -94,6 +94,14 @@
                 "demo" : "https://todo-dashboard-2ood.herokuapp.com/"
             },
             {
+                "name" : "json placeholder",
+                "summary" : "My dummy json API server built for frontend testing",
+                "timestamp" : "2023.06.14",
+                "tags" : ["express","swagger"],
+                "techs" : ["express","swagger"],
+                "repo" : "https://github.com/2ood/json-placeholder"
+            },
+            {
                 "name" : "2ood blog",
                 "summary" : "My first blog build attempt with vanilla js",
                 "timestamp" : "2022.04.15",

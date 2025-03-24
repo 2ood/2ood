@@ -69,6 +69,13 @@
                     <Button onclick={() => window.open("https://2ood.tistory.com/", "_blank")} algin_self="flex-end">Visit</Button>
                 </ListChip>
             </column>
+            <column>
+                <ListChip>
+                    <h3>Thought letters</h3>
+                    <summary>I publish short thoughts as email letter.</summary>
+                    <Button onclick={() => window.open("https://maily.so/2oodly", "_blank")} algin_self="flex-end">Visit</Button>
+                </ListChip>
+            </column>
         </columngroup>
     </section>
     <section class="right-bottom" use:reveal>
