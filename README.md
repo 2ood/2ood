@@ -2,16 +2,17 @@
 
 I build what I am in need.
 
-I drink espresso.
+### What I love..
+* Filter coffee, both drinking and brewing.
+* Plants, especially trees.
+* Writing essays. Check out my writings on my profile page below
+* Books. I like novels.
+* Movies.
+* Listening to music. Jazz, korean indie folk songs.
+* Playing music. Electric guitar, electric bass, piano, and more.
+* Taking pictures. I own a mirrorless camera.
 
-I like trees.
-
-I like to write stuff.
-
-I like to run.
-
-I would like to read.
-
-I like sentimental ballad songs.
+### What I do..
+* Currently a senior undergraduate in GIST, Gwangju.
 
 [visit my profile page](https://2ood.vercel.app/)
