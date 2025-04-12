@@ -45,7 +45,7 @@
                 "tags" : ["portfolio", "svelte"],
                 "techs" : ["svelte", "vercel","vite"],
                 "demo"  : "https://2ood.vercel.app/",
-                "repo" : "https://github.com/2ood/"
+                "repo" : "https://github.com/2ood/2ood"
             }
         ],
         "toy" : [
@@ -91,7 +91,7 @@
                 "tags" : ["js","express","firebase"],
                 "techs" : ["js","express","heroku","firebase"],
                 "repo" : "https://github.com/2ood/todo-dashboard",
-                "demo" : "https://todo-dashboard-2ood.herokuapp.com/"
+                "demo" : "https://2ood.github.io/todo-dashboard/"
             },
             {
                 "name" : "json placeholder",
