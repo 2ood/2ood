@@ -1,6 +1,6 @@
 
 
-export default {
+export const routes = {
   "meta": {},
   "id": "_default",
   "name": "",
@@ -151,3 +151,4 @@ export default {
     }
   ]
 }
+export default routes

@@ -56,6 +56,15 @@
                 "tags" : ["API", "KAKAO"],
                 "techs" : ["js"],
                 "repo" : "https://github.com/2ood/kakao-api-sandbox"
+            },
+            {
+                "name" : "Xbox 360 Controller Tester",
+                "summary" : "I built Xbox controller input reading testbed, in browser.",
+                "timestamp" : "2025.05.01",
+                "tags" : ["gamepad API"],
+                "techs" : ["js"],
+                "repo" : "https://github.com/2ood/xbox-controller-testbed",
+                "demo" : "https://2ood.github.io/xbox-controller-testbed/"
             }       
         ],
         "archived" : [
