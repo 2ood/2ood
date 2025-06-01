@@ -5,7 +5,11 @@
 <div class="career">
     <div class="career-header">
         <p>{career.date}</p>
-        <h4>{career.name}</h4>
+        {#if career.href}
+            <a href={career.href} target="_blank"><h4>{career.name}</h4></a>
+        {:else}
+            <h4>{career.name}</h4>
+        {/if}
     </div>
     
     <summary>{career.summary}</summary>
@@ -34,8 +38,14 @@
     .career-header h4 {
         margin : 0;
     }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
     summary {
         color : var(--color-blue-shading);
     }
+
 
 </style>

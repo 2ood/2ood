@@ -2,41 +2,51 @@
     "author" : "2ood",
     "projects" : {
         "official" : [
-        {
-            "name" : "Friends Tutor",
-            "summary" : "Lecture provider platform where lectures recorded by friends are shared.",
-            "timestamp" : "2024.02.14 - 2024.03.31",
-            "demo"  : "https://friends-tutor.vercel.app/",
-            "tags" : [],
-            "techs" : ["react", "netlify","vite"],
-            "repo" : "https://github.com/2ood/friends-tutor"
-        },
-        {
-            "name" : "UMCS",
-            "summary" : "Untact movement control system",
-            "timestamp" : "2024.03.25",
-            "tags" : ["award-winning"],
-            "techs" : ["flutter", "dart"],
-            "repo" : "https://github.com/2ood/app_web_IoT_UMCS_Team60"
+            {
+                "name" : "GIFARC showcase",
+                "summary" : "dataset visualiser of GIFARC, a synthetic dataset to leverage analogic approach of LLM.",
+                "timestamp" : "2025.05.19 - 2025.05.30",
+                "website" : "https://gifarc.vercel.app/",
+                "tags" : ["research-paper"],
+                "techs" : ["nextjs","vercel"],
+                "paper" : "https://arxiv.org/abs/2505.20672",
+                "dataset" : "https://huggingface.co/datasets/DumDev/gif_arc"
             },
-        {
-            "name" : "Oragi",
-            "summary" :"A emotion messaging web app for mental-health purpose",
-            "timestamp" : "2023.04.30",
-            "tags" : ["award-winning"],
-            "techs" : ["react", "netlify","vite"],
-            "repo" : "https://github.com/2ood/oragi-frontend"
-        }
+            {
+                "name" : "Friends Tutor",
+                "summary" : "Lecture provider platform where lectures recorded by friends are shared.",
+                "timestamp" : "2024.02.14 - 2024.03.31",
+                "tags" : ["hackathon"],
+                "techs" : ["react", "netlify","vite"],
+                "demo"  : "https://friends-tutor.netlify.app/",
+                "repo" : "https://github.com/2ood/friends-tutor"
+            },
+            {
+                "name" : "UMCS",
+                "summary" : "Untact movement control system",
+                "timestamp" : "2024.03.25",
+                "tags" : ["hackathon","award-winning"],
+                "techs" : ["flutter", "dart"],
+                "repo" : "https://github.com/2ood/app_web_IoT_UMCS_Team60"
+                },
+            {
+                "name" : "Oragi",
+                "summary" :"A emotion messaging web app for mental-health purpose",
+                "timestamp" : "2023.04.30",
+                "tags" : ["hackathon","award-winning"],
+                "techs" : ["react", "netlify","vite"],
+                "repo" : "https://github.com/2ood/oragi-frontend"
+            }
         ],
         "personal" : [
             {
-                "name" : "Semantic Commit Writer",
-                "summary" : "I built a website that generates semantic commit messages.",
-                "timestamp" : "2024.07.09",
-                "tags" : ["semantic-commit", "git"],
-                "techs" : ["js","git","bootstrap"],
-                "demo"  : "https://2ood.github.io/semantic-commit-writer/",
-                "repo" : "https://github.com/2ood/semantic-commit-writer"
+                "name" : "2ood blog",
+                "summary" : "I built my own essay blog",
+                "timestamp" : "2022.04.15, 2025.06.01",
+                "tags" : ["blog"],
+                "techs" : ["nextjs","vercel","js","firebase"],
+                "repo" :"https://github.com/2ood/blog",
+                "website" : "https://2ood-blog.vercel.app/"
             },
             {
                 "name" : "2ood's Portfolio",
@@ -44,19 +54,20 @@
                 "timestamp" : "2025.03.16",
                 "tags" : ["portfolio", "svelte"],
                 "techs" : ["svelte", "vercel","vite"],
-                "demo"  : "https://2ood.vercel.app/",
-                "repo" : "https://github.com/2ood/2ood"
+                "website"  : "https://2ood.vercel.app/",
+                "repo" : "https://github.com/2ood/2ood/"
+            },
+            {
+                "name" : "Semantic Commit Writer",
+                "summary" : "I built a website that generates semantic commit messages.",
+                "timestamp" : "2024.07.09",
+                "tags" : ["semantic-commit", "git"],
+                "techs" : ["js","git","bootstrap"],
+                "website"  : "https://2ood.github.io/semantic-commit-writer/",
+                "repo" : "https://github.com/2ood/semantic-commit-writer"
             }
         ],
         "toy" : [
-            {
-                "name" : "KAKAO API Sandbox",
-                "summary" : "I built an API tester for Kakaotalk send-to-myself API",
-                "timestamp" : "2024.03.25",
-                "tags" : ["API", "KAKAO"],
-                "techs" : ["js"],
-                "repo" : "https://github.com/2ood/kakao-api-sandbox"
-            },
             {
                 "name" : "Xbox 360 Controller Tester",
                 "summary" : "I built Xbox controller input reading testbed, in browser.",
@@ -65,33 +76,15 @@
                 "techs" : ["js"],
                 "repo" : "https://github.com/2ood/xbox-controller-testbed",
                 "demo" : "https://2ood.github.io/xbox-controller-testbed/"
-            }       
-        ],
-        "archived" : [
+            },
             {
-                "name" : "Travel Map",
-                "summary" : "My travelling map. I will color each part as I visit.",
-                "timestamp" : "2022.06.26",
-                "tags" : ["svg"],
+                "name" : "KAKAO API Sandbox",
+                "summary" : "I built an API tester for Kakaotalk send-to-myself API",
+                "timestamp" : "2024.03.25",
+                "tags" : ["API", "KAKAO"],
                 "techs" : ["js"],
-                "repo" : "https://github.com/2ood/travel-map",
-                "demo" : "https://2ood.github.io/travel-map/"
-            },
-            {
-                "name" : "Exam Generator",
-                "summary" : "Exam problems random-selector .jar program.",
-                "timestamp" : "2021.11.08",
-                "tags" : ["jar"],
-                "techs" : ["java"],
-                "repo" : "https://github.com/2ood/exam-generator"
-            },
-            {
-                "name" : "oodlib",
-                "summary" : "My dev blog built with docusaurus.",
-                "timestamp" : "2023.03.01",
-                "tags" : ["blog"],
-                "techs" : ["docusaurus","md"],
-                "repo" : "https://github.com/2ood/oodlib"
+                "demo" : "https://2ood.github.io/kakao-api-sandbox/",
+                "repo" : "https://github.com/2ood/kakao-api-sandbox"
             },
             {
                 "name" : "todo-dashboard",
@@ -103,20 +96,37 @@
                 "demo" : "https://2ood.github.io/todo-dashboard/"
             },
             {
+                "name" : "oodlib",
+                "summary" : "My dev blog built with docusaurus.",
+                "timestamp" : "2023.03.01",
+                "tags" : ["blog"],
+                "techs" : ["docusaurus","md"],
+                "repo" : "https://github.com/2ood/oodlib"
+            },
+            {
+                "name" : "Travel Map",
+                "summary" : "My travelling map. I will color each part as I visit.",
+                "timestamp" : "2022.06.26",
+                "tags" : ["svg"],
+                "techs" : ["js"],
+                "repo" : "https://github.com/2ood/travel-map",
+                "website" : "https://2ood.github.io/travel-map/"
+            },
+            {
+                "name" : "Exam Generator",
+                "summary" : "Exam problems random-selector .jar program.",
+                "timestamp" : "2021.11.08",
+                "tags" : ["jar"],
+                "techs" : ["java"],
+                "repo" : "https://github.com/2ood/exam-generator"
+            },
+            {
                 "name" : "json placeholder",
                 "summary" : "My dummy json API server built for frontend testing",
                 "timestamp" : "2023.06.14",
                 "tags" : ["express","swagger"],
                 "techs" : ["express","swagger"],
                 "repo" : "https://github.com/2ood/json-placeholder"
-            },
-            {
-                "name" : "2ood blog",
-                "summary" : "My first blog build attempt with vanilla js",
-                "timestamp" : "2022.04.15",
-                "tags" : ["js","firebase"],
-                "techs" : ["js","firebase"],
-                "repo" : "https://github.com/2ood/blog"
             }
         ]
     }

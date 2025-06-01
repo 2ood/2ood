@@ -1,9 +1,0 @@
----
-title: "Semantic Commit Writer"
-date: 2024.07.09
-summary: "Friends Tutor is a lecture provider platform where lectures recorded by students are shared worldwide."
-layout: project
----
-
-Friends Tutor is a lecture provider platform where lectures recorded by students are shared worldwide.
-

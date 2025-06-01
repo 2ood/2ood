@@ -1,10 +1,10 @@
 <script>
-    import MdArrowBack from 'svelte-icons/md/MdArrowBack.svelte'
+   import Icon from '@iconify/svelte';
 </script>
 
 
 <button id="back-button" onclick={() => history.back()}>
-    <MdArrowBack />
+    <Icon icon="mdi:arrow-left" width="100%" height="100%"/>
 </button>
 <style>
     #back-button {

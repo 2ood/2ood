@@ -56,6 +56,10 @@
         <Icon icon="devicon:firebase" />
     {:else if tech === "swagger"}
         <Icon icon="devicon:swagger" /> 
+    {:else if tech === "nextjs"}
+        <Icon icon="nonicons:next-16" />
+    {:else if tech === "prisma"}
+        <Icon icon="skill-icons:prisma"/> 
     {/if}   
 </techs>
 
@@ -64,5 +68,11 @@
         display: inline-flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        techs {
+            color: #fff; /* or any other color for dark mode */
+        }
     }
 </style>
